@@ -17,7 +17,7 @@
     "semi": false
 }
 ~~~ 
-~~## 2. TypeScript の導入~~
+## ~~2. TypeScript の導入~~
 https://nextjs.org/learn/excel/typescript/create-tsconfig
 ### 2-1. 空のtsconfig.json作成
     touch tsconfig.json
