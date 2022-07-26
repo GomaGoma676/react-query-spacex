@@ -4,11 +4,11 @@
     npm install --global yarn
     yarn --version
 ### 1-2.  create-next-app
-    npx create-next-app .
+    npx create-next-app . --ts
 #### Node.js version 10.13以降が必要です。 -> ターミナル `node -v`でver確認出来ます。
 ### 1-3.  react-queryのインストール
     yarn add @heroicons/react
-    yarn add react-query react-query-devtools graphql graphql-request
+    yarn add react-query@3.39.0 react-query-devtools graphql graphql-request
 ### 1-4.  prettierの設定 : settingsでRequire Config + Format On Saveにチェック
     touch .prettierrc
 ~~~
@@ -17,7 +17,7 @@
     "semi": false
 }
 ~~~ 
-## 2. TypeScript の導入
+--## 2. TypeScript の導入--
 https://nextjs.org/learn/excel/typescript/create-tsconfig
 ### 2-1. 空のtsconfig.json作成
     touch tsconfig.json
