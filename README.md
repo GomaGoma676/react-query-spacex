@@ -7,7 +7,7 @@
     npx create-next-app . --ts
 #### Node.js version 10.13以降が必要です。 -> ターミナル `node -v`でver確認出来ます。
 ### 1-3.  react-queryのインストール
-    yarn add @heroicons/react
+    yarn add @heroicons/react@1.0.6
     yarn add react-query@3.39.0 react-query-devtools graphql graphql-request
 ### 1-4.  prettierの設定 : settingsでRequire Config + Format On Saveにチェック
     touch .prettierrc
